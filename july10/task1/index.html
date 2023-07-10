@@ -75,14 +75,14 @@
 
     <div>
         <h3 class="gray-title">Some random form</h3>
-        <form action="">
+        <form id="form" action="">
             <p> <strong><em>NOTE:</em></strong> It looks the part, but won't do anything.</p>
             
             <label for="fullname">Name:</label> <br><br>
-            <input class="input-name" type="text" id="fullname" name="fullname" placeholder="Your Name">
+            <input id="fullname" class="input-name" type="text" id="fullname" name="fullname" placeholder="Your Name">
             <br><br>
             <label for="comments">Comments:</label><br><br>
-            <textarea class="input-comments" class="text-area" type="text" id="comments" name="comments" placeholder="Your comments"></textarea>
+            <textarea id="comments" class="input-comments" class="text-area" type="text" id="comments" name="comments" placeholder="Your comments"></textarea>
             <br><br>
             <label for="gender">Are you:</label> <br><br>
             <input type="radio" id="male" name="gender" value="male">
@@ -91,14 +91,14 @@
             <input type="radio" id="female" name="gender" value="female">
             <label for="css">Female</label>
             <br><br>
-            <button type="submit">Submit Query</button>
+            <button id="btn" type="submit">Submit Query</button>
             <br><br>
         </form>
 
 
     </div>
 
-
+    <script src="./script.js"></script>
 </body>
 </html>
 
