@@ -14,6 +14,7 @@ form.addEventListener('submit', (e) => {
         alert("All fields are compulsory");
         if (fullname.value === "") fullname.focus();
         else if (comments.value === "") comments.focus();
+        else male.checked = true;
     }
     else {
         alert("Form Submitted Successfully")
