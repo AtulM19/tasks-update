@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+    padding: 0;
+    background-color: #FFFFCC; 
+}
+
+body {
+    margin: 20px;
+}
+
+.title-container {
+    background-color: red;
+    padding-bottom: 1px;
+}
+
+.title {
+    text-align: center;
+    letter-spacing: 16px;
+    font-style: oblique;
+    padding: 10px;
+    color: white;
+    background-color: rgb(156, 11, 11);
+}
+
+.subheading {
+    color: white;
+    background-color: #009900;
+    padding: 10px;
+}
+
+.list {
+    color: red;
+}
+
+.link-zeus {
+    text-decoration: none;
+    color: purple;
+}
+
+.google {
+    border: 1px dashed lightgray;
+    width: 150px;
+    height: 80px;
+}
+
+.gray-title {
+    color: rgba(100, 94, 94, 0.7);
+}
+
+table {
+    background-color: darkgray;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+
+.input-comments {
+    width: 200px;
+    height: 150px;
+}
+
+.input-name::placeholder {
+    color: black;
+}
+
+.input-comments::placeholder {
+    color: black;
+}
