@@ -15,4 +15,7 @@ form.addEventListener('submit', (e) => {
         if (fullname.value === "") fullname.focus();
         else if (comments.value === "") comments.focus();
     }
+    else {
+        alert("Form Submitted Successfully")
+    }
 })
