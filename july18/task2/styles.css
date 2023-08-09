@@ -1,0 +1,246 @@
+@font-face {
+  font-family: Quicksand;
+  src: url('font/Quicksand-VariableFont_wght.ttf') format("truetype-variations");
+  font-style: normal;
+  font-weight: 300 800;
+}
+
+body, html {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #EEEEEE;
+    font-family: Quicksand, "Helvetica Neue";
+    overflow-x: hidden;
+}
+
+
+/*****************************************************************************************************************/
+
+
+header {
+    /* position: sticky; */
+    /* top: 0; */
+    width: 100%;
+    margin-bottom: auto;
+    background: url('./images/header-pattern.png');
+    background-color: #25313F;
+    opacity: 1;
+}
+
+header > img {
+    padding: 10px 40px;
+}
+
+main {
+    width: 50%;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 0px 80px 80px 80px;
+    border-top: 4px solid #31B9E4;
+}
+
+
+/*****************************************************************************************************************/
+
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+    font: 24px/28px Quicksand;
+    font-weight: bold;
+    color: #222222;
+}
+
+.title > img {
+    margin-right: auto;
+    padding-left: 20px;
+}
+
+.title > div {
+    margin-left: auto;
+}
+
+.inp-radio {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.inp-radio > div {
+    display: flex;
+    align-items: center;
+}
+
+.inp-radio-1 {
+    margin-right: 30px;
+}
+
+
+/*****************************************************************************************************************/
+
+
+.state {
+    padding: 10px 0 20px 0px;
+}
+
+.district {
+    padding: 20px 0 20px 0px;
+}
+
+.label-select {
+    font: 12px/16px Quicksand;
+    letter-spacing: 0px;
+    color: #666666;
+    opacity: 1;
+}
+
+select {
+    outline: none;
+    border: none;
+    font: 16px/20px Quicksand;
+    color: #222222;
+    font-weight: bold;
+    opacity: 1;
+    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    width: 100%;
+    background: transparent url('./icons/arrow-down.svg') right no-repeat content-box;
+}
+
+
+/*****************************************************************************************************************/
+
+
+a {
+    color: #1F7A54;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+select {
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Safari, Chrome, Opera */
+    -webkit-appearance: none;
+}
+  
+/* for IE10 */
+select::-ms-expand {
+    display: none;
+}
+
+/*****************************************************************************************************************/
+
+
+.username {
+    padding: 20px 0 20px 0px;
+}
+
+.password {
+    padding: 20px 0 20px 0px;
+}
+
+input[type="text"], input[type="password"] {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    width: 100%;
+    text-align: left;
+    font: 16px/20px Quicksand;
+    letter-spacing: 0px;
+    color: #666666;
+    background-color: transparent;
+    padding-bottom: 5px;
+}
+
+input[type="password"] {
+    background: transparent url('./icons/preview.svg') right no-repeat content-box;
+}
+
+.forgot {
+    text-align: right;
+    padding-top: 5px;
+}
+
+
+/*****************************************************************************************************************/
+
+
+.remember {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.remember > p {
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+
+/*****************************************************************************************************************/
+
+
+.btn {
+    text-align: center;
+}
+
+.btn > button {
+    outline: none;
+    border: none;
+    padding: 10px 20%;
+    background-color: #3FD28B;
+    box-shadow: 0px 3px 5px #0000003D;
+}
+
+
+/*****************************************************************************************************************/
+
+
+.navigate {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+
+/*****************************************************************************************************************/
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E0E1E1;
+    padding: 10px 10px;
+    width: 100%;
+    margin-top: auto;
+}
+
+footer > span {
+    font:  12px/16px Quicksand;
+    color: #616161;
+    padding: 4px;
+}
+
+.company-name {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        width: 100%;
+    }
+    main {
+        width: 50%;
+        margin: 20px auto;
+        margin-bottom: 100px;
+    }
+
+    header > img {
+        padding: 10px 20px;
+    }
+
+    
+
+}

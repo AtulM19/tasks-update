@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./icons/logo used in header.svg"  height=""alt="">
+            <div class="nav-div">
+                <ul class="nav-menu">
+                    <li class="nav-ele">
+                        <a class="nav-item nav-dashboard" href="#">
+                            DASHBOARD
+                        </a>
+                        <img src="./icons/arrow-down-green.svg" class="nav-arrow" alt="">
+                    </li>
+                    <li class="nav-ele" id="content">
+                        <a class="nav-item nav-content" href="#">
+                            CONTENT
+                        </a>
+                        <img src="./icons/arrow-down-green.svg" id="img" class="nav-arrow" alt="">
+                        <ul class="hidden" id="catalog">
+                            <li class="catalog">Course Catalog</li>
+                        </ul>
+                    </li>
+                    <li class="nav-ele">
+                        <a class="nav-item nav-users" href="#">
+                            USERS
+                        </a>
+                        <img src="./icons/arrow-down-green.svg" class="nav-arrow" alt="">
+                    </li>
+                    <li class="nav-ele">
+                        <a class="nav-item nav-reports" href="#">
+                            REPORTS
+                        </a>
+                        <img src="./icons/arrow-down-green.svg" class="nav-arrow" alt="">
+                    </li>
+                    <li class="nav-ele">
+                        <a class="nav-item nav-admin" href="#">
+                            ADMIN
+                        </a>
+                        <img src="./icons/arrow-down-green.svg" class="nav-arrow" alt="">
+                    </li>
+                    </ul>
+                
+                
+                <img class="nav-img1" class="icon-button" src="./icons/alerts.svg" alt="">
+                <p class="nav-img-text1">2</p>
+                <img id="annc" class="nav-img2" src="./icons/announcements.svg" alt="">
+                <p  id="annc" class="nav-img-text2">1</p>
+                <img class="nav-img3" src="./images/acc2.png" alt="">
+                <p class="nav-img-text3">1</p>
+                <div class="hamburger">
+                    <img src="./icons/hamburger-menu.svg" alt="">
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="notif-container">
+        <div id="notif">
+            <div class="notif-ele notif-ele-1">
+                <div class="notif-name">
+                    <span ><span class="dim">PA:</span> Wilson Kumar</span>
+                    <img class="notif-name-icon" src="./icons/green-check.svg" alt="">
+                </div>
+                <p class="notif-title">No classes will be held on 21st Nov</p>
+                <div class="notif-info">
+                    <div class="notif-info_file">
+                        <img class="notif-info-attachment" src="./icons/attachment.svg" alt="">
+                        <span class="dim">2 files are attached</span>
+                    </div>
+                    <p class="notif-info_date dim">15-Sep-2018 at 07:21 pm</p>
+                </div>
+            </div>
+    
+            <hr>
+            
+            <div class="notif-ele notif-ele-2">
+                <div class="notif-name">
+                    <span ><span class="dim">PA:</span> Samson White</span>
+                    <img class="notif-name-icon filter-green" src="./icons/minus.svg" fill alt="">
+                </div>
+                <p class="notif-title">Guest lecture on Geometry on 20th September</p>
+                <div class="notif-info">
+                    <div class="notif-info_file">
+                        <img class="notif-info-attachment" src="./icons/attachment.svg" alt="">
+                        <span class="dim">2 files are attached</span>
+                    </div>
+                    <p class="notif-info_date dim">15-Sep-2018 at 07:21 pm</p>
+                </div>
+            </div>
+           
+            <hr>
+           
+            <div class="notif-ele notif-ele-3">
+                <div class="notif-name">
+                    <span ><span class="dim">PA:</span> Wilson Kumar</span>
+                    <img class="notif-name-icon" src="./icons/green-check.svg" alt="">
+                </div>
+                <p class="notif-title">Additional course materials avaiable on request</p>
+                <div class="notif-info">
+                    <div class="notif-info_file">
+                        <!-- <img class="notif-info-attachment" src="./icons/attachment.svg" alt=""> -->
+                        <span class="dim">Course: Mathematics 101</span>
+                    </div>
+                    <p class="notif-info_date dim">15-Sep-2018 at 07:21 pm</p>
+                </div>
+            </div>
+            
+            <hr>
+            
+            <div class="notif-ele notif-ele-4">
+                <div class="notif-name">
+                    <span ><span class="dim">PA:</span> Wilson Kumar</span>
+                     <img class="notif-name-icon filter-green" src="./icons/minus.svg" fill alt="">
+                </div>
+                <p class="notif-title">Additional course materials avaiable on request</p>
+                <div class="notif-info">
+                    <div class="notif-info_file">
+                        <!-- <img class="notif-info-attachment" src="./icons/attachment.svg" alt="">
+                        <span class="dim">2 files are attached</span> -->
+                    </div>
+                    <p class="notif-info_date dim">15-Sep-2018 at 07:21 pm</p>
+                </div>
+            </div>
+            
+            <hr>
+            
+            <div class="notif-ele notif-ele-5">
+                <div class="notif-name">
+                    <span ><span class="dim">PA:</span> Wilson Kumar</span>
+                     <img class="notif-name-icon filter-green" src="./icons/minus.svg" fill alt="">
+                </div>
+                <p class="notif-title">Additional course materials avaiable on request</p>
+                <div class="notif-info">
+                    <div class="notif-info_file">
+                        <img class="notif-info-attachment" src="./icons/attachment.svg" alt="">
+                        <span class="dim">2 files are attached</span>
+                    </div>
+                    <p class="notif-info_date dim">15-Sep-2018 at 07:21 pm</p>
+                </div>
+            </div>
+            
+            
+           <p class="text-container">
+                <a href="">SHOW ALL </a> <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span> <a href="">CREATE NEW</a>
+           </p>
+    
+        </div>
+    </div>
+
+    <div class="overview">
+        <div class="overview-container">
+            <img class="overview-container__image" src="./icons/courses.svg" alt="">
+            <span class="overview-container__text">4 Courses</span>
+        </div>
+        <div class="overview-container">
+            <img class="overview-container__image" src="./icons/classes.svg" alt="">
+            <span class="overview-container__text">4 Classes</span>
+        </div>
+    </div>
+
+    <div class="details">
+        <div class="details-text">
+            <span>Showing 4 of 4 courses</span>
+        </div>
+        <div class="details-sort">
+            <p class="details-sort__label">Sort By:</p>
+            <select class="details-sort__input">
+                <option>Course Name</option>
+                <option>Course Date</option>
+                <option>Course Duration</option>
+                <option>Course Rating</option>
+            </select>
+            <img class="details-sort__image" src="./icons/sort.svg" alt="">
+        </div>
+    </div>
+       
+    <hr>
+        
+
+    <main class="course">
+
+        <div class="course-content course-content-1">
+            <div class="course-container">
+                
+                <div class="course-content__image">
+                    <img src="./images/imageMask-1.svg" alt="">
+                </div>
+                <div class="course-content-data">
+                    <div class="course-title course-title-1">
+                        <span>Acceleration</span>
+                        <img src="./icons/favourite.svg" alt="">
+                    </div>
+                    <div class="course-name">
+                        <span class="course-name__subject">Physics</span>
+                        <span> &nbsp;&nbsp; | &nbsp;&nbsp; </span>
+                        <span class="course-name__grade">Grade 7 <span class="text-green"> +2</span></span>
+                    </div>
+                    <div class="course-details">
+                        <span><b>4</b> Units</span> &nbsp;
+                        <span><b>18</b> Lessons</span> &nbsp;
+                        <span><b>24</b> Topics</span>
+                    </div>
+                    <select class="course-select">
+                        <option>Mr. Frank's Class B</option>
+                        <option>Mr. Frank's Class A</option>
+                        <option>Mr. Frank's Class C</option>
+                        <option>Mr. Frank's Class D</option>
+                    </select>
+                    <div class="course-dates">
+                        <span>50 students</span>
+                        <span> &nbsp;&nbsp; | &nbsp;&nbsp; </span>
+                        <span>21-Jan-2020 - 21-Aug-2020</span>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="course-footer">
+                <img class="course-footer__img1" src="./icons/preview.svg" alt="">
+                <img class="course-footer__img2" src="./icons/manage course.svg" alt="">
+                <img class="course-footer__img3" src="./icons/grade submissions.svg" alt="">
+                <img class="course-footer__img4" src="./icons/reports.svg" alt="">
+            </div>
+
+        </div>
+
+        <div class="course-content course-content-2">
+            <div class="course-container">
+                <div class="course-content__image">
+                    <img src="./images/imageMask-2.svg" alt="">
+                </div>
+                <div class="course-content-data">
+                    <div class="course-title course-title-2">
+                        <span>Displacement, Velocity and Speed</span>
+                        <img src="./icons/favourite.svg" alt="">
+                    </div>
+                    <div class="course-name">
+                        <span class="course-name__subject">Physics</span>
+                        <span> &nbsp;&nbsp; | &nbsp;&nbsp; </span>
+                        <span class="course-name__grade">Grade 6 <span class="text-green">+3</span></span>
+                    </div>
+                    <div class="course-details">
+                        <span><b>2</b> Units</span> &nbsp;
+                        <span><b>15</b> Lessons</span> &nbsp;
+                        <span><b>20</b> Topics</span>
+                    </div>
+                    <select class="course-select courses-select-2">
+                        <option>No Classes</option>
+                        <option>Mr. Frank's Class A</option>
+                        <option>Mr. Frank's Class C</option>
+                        <option>Mr. Frank's Class D</option>
+                    </select>
+                    <!-- <div class="course-dates">
+                        <span>50 students</span>
+                        <span> &nbsp;&nbsp; | &nbsp;&nbsp; </span>
+                        <span>21-Jan-2020 - 21-Aug-2020</span>
+                    </div> -->
+                </div>
+            </div>
+     
+            <hr>
+            
+            <div class="course-footer course-footer-2">
+                <img class="course-footer__img1" src="./icons/preview.svg" alt="">
+                <img class="course-footer__img2" src="./icons/manage course.svg" alt="">
+                <img class="course-footer__img3" src="./icons/grade submissions.svg" alt="">
+                <img class="course-footer__img4" src="./icons/reports.svg" alt="">
+            </div>
+
+            
+
+        </div>
+
+        <div class="course-content course-content-3">
+            <div class="course-container">
+                <div class="course-content__image">
+                    <img src="./images/imageMask-3.svg" alt="">
+                </div>
+                <div class="course-content-data">
+                    <div class="course-title course-title-3">
+                        <span>Introduction to Biology: Microorganisms and how they affe...</span>
+                        <img src="./icons/favourite.svg" alt="">
+                    </div>
+                    <div class="course-name">
+                        <span class="course-name__subject">Biology</span>
+                        <span> &nbsp;&nbsp; | &nbsp;&nbsp; </span>
+                        <span class="course-name__grade">Grade 4 <span class="text-green"> +1</span></span>
+                    </div>
+                    <div class="course-details">
+                        <span><b>5</b> Units</span>
+                        <span><b>16</b> Lessons</span>
+                        <span><b>22</b> Topics</span>
+                    </div>
+                    <select class="course-select">
+                        <option>All Classes</option>
+                        <option>Mr. Frank's Class A</option>
+                        <option>Mr. Frank's Class C</option>
+                        <option>Mr. Frank's Class D</option>
+                    </select>
+                    <div class="course-dates">
+                        <span>3000 students</span>
+                        <!-- <span> &nbsp;&nbsp; | &nbsp;&nbsp; </span>
+                        <span>21-Jan-2020 - 21-Aug-2020</span> -->
+                    </div>
+                </div>
+            </div>
+            
+            <hr>
+
+            <div class="course-footer course-footer-3">
+                <img class="course-footer__img1" src="./icons/preview.svg" alt="">
+                <img class="course-footer__img2" src="./icons/manage course.svg" alt="">
+                <img class="course-footer__img3" src="./icons/grade submissions.svg" alt="">
+                <img class="course-footer__img4" src="./icons/reports.svg" alt="">
+            </div>
+
+        </div>
+
+        <div class="course-content course-content-4">
+            <div class="course-container">
+                <div class="course-content__image">
+                    <img src="./images/imageMask-4.svg" alt="">
+                </div>
+                <div class="course-content-data">
+                    <div class="course-title course-title-4">
+                        <span>Introduction to High School Mathematics</span>
+                        <img src="./icons/favourite.svg" alt="">
+                    </div>
+                    <div class="course-name">
+                        <span class="course-name__subject">Mathematics</span>
+                        <span> &nbsp;&nbsp; | &nbsp;&nbsp; </span>
+                        <span class="course-name__grade">Grade 8 <span class="text-green"> +3</span></span>
+                    </div>
+                    <!-- <div class="course-details">
+                        <span><b>4</b> Units</span>
+                        <span><b>18</b> Lessons</span>
+                        <span><b>24</b> Topics</span>
+                    </div> -->
+                    <select class="course-select">
+                        <option>Mr. Frank's Class A</option>
+                        <option>Mr. Frank's Class B</option>
+                        <option>Mr. Frank's Class C</option>
+                        <option>Mr. Frank's Class D</option>
+                    </select>
+                    <div class="course-dates">
+                        <span>44 students</span>
+                        <span> &nbsp;&nbsp; | &nbsp;&nbsp; </span>
+                        <span>14-OCt-2019 - 20-Oct-2020</span>
+                    </div>
+                </div>
+            </div>
+            
+            <hr>
+
+            <div class="course-footer course-footer-4">
+                <img class="course-footer__img1" src="./icons/preview.svg" alt="">
+                <img class="course-footer__img2" src="./icons/manage course.svg" alt="">
+                <img class="course-footer__img3" src="./icons/grade submissions.svg" alt="">
+                <img class="course-footer__img4" src="./icons/reports.svg" alt="">
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <div class="navigate">
+        <a href="#">About</a>
+        <div> &nbsp;&nbsp; | &nbsp;&nbsp; </div>
+        <a href="#">Contact Us</a>
+    </div>
+
+    <footer>
+        <img src="./icons/logo used in footer.svg" alt="">
+        <span> &nbsp;&nbsp; | &nbsp;&nbsp; </span>
+        <span class="copyright"> Copyright © 2020-2021 </span>
+        <span class="company-name"> Zeus Systems Pvt. Ltd. </span>
+        <span class="rights"> All rights reserved. </span>
+    </footer>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
