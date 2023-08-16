@@ -4,7 +4,7 @@ services:
   # image: ${docker-registry}/my-app:1.0
   # ports:
   # - 3000:3000
-  mongodb:
+  mongodb-server:
     image: mongo
     ports:
       - 27017:27017
@@ -21,7 +21,7 @@ services:
     environment:
       - ME_CONFIG_MONGODB_ADMINUSERNAME=admin
       - ME_CONFIG_MONGODB_ADMINPASSWORD=password
-      - ME_CONFIG_MONGODB_SERVER=mongodb
+      - ME_CONFIG_MONGODB_SERVER=mongodb-server
 volumes:
   mongo-data:
     driver: local
